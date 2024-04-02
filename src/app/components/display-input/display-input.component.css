@@ -1,0 +1,15 @@
+button{
+    padding: 5px;
+    display: flex;
+    margin: 10px;
+    background-color: blueviolet;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    background-color: black;
+}

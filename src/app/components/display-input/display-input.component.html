@@ -1,0 +1,9 @@
+<h4>Q. Implement a component that allows users to input their name and displays a personalized greeting message.</h4>
+<p>Output: </p>
+
+<div>
+  <label for="nameInput">Enter Name:</label>
+  <input type="text" id="nameInput" [(ngModel)]="userName">
+  <button (click)="sayHello()">Greeting..</button>
+  <div *ngIf="greeting">{{ greeting }}</div>
+</div>
