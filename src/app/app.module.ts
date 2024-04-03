@@ -8,6 +8,10 @@ import { DisplayInputComponent } from './components/display-input/display-input.
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ListComponent } from './components/list/list.component';
 import { FormsModule } from '@angular/forms';
+import { HighlightDirective } from './directives/highlight/highlight.directive';
+import { HomeComponent } from './components/home/home.component';
+import { HighlightComponent } from './components/highlight/highlight.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { FormsModule } from '@angular/forms';
     GreetingComponent,
     DisplayInputComponent,
     DashboardComponent,
-    ListComponent
+    ListComponent,
+    HomeComponent,
+    HighlightDirective,
+    HighlightComponent,
+   
   ],
   imports: [
     BrowserModule,
