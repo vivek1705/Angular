@@ -1,0 +1,7 @@
+<!-- Add the 'appMinLength' directive to the input element -->
+<input type="text" appMinLength="5" #textInput>
+
+<!-- Display feedback message for invalid input -->
+<div *ngIf="textInput.classList.contains('invalid')" class="feedback">
+  Input must have at least 5 characters.
+</div>

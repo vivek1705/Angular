@@ -9,12 +9,16 @@
 
     <h1>Directives</h1>
     <li [routerLink]="'/highlight'" class="p-4 cursor-pointer" >Directive </li>
+    <li [routerLink]="'/tooltip'" class="p-4 cursor-pointer" >Tooltip </li>
+    <li [routerLink]="'/min-length'" class="p-4 cursor-pointer" >Min-Length </li>
+    <li [routerLink]="'/animation'" class="p-4 cursor-pointer" >Animation </li>
+
+    <h1>Services</h1>
+    <li [routerLink]="'/dataservice'" class="p-4 cursor-pointer" >Data Service </li>
+
   </ul>
 </aside>
 
-<!-- <div appHighlight>
-  Hover over me to see the highlight effect!
-</div> -->
 
 <div class="components-area">
   <router-outlet></router-outlet>
